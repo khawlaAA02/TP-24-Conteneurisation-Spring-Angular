@@ -12,17 +12,7 @@ Ce TP a pour objectif de conteneuriser une application Smart Home développée a
 
 L’application est déployée sous forme de micro-environnement composé de plusieurs conteneurs communiquant entre eux.
 
-## Architecture :
 
-┌─────────────┐      ┌──────────────┐
-│  Frontend   │ ---> │   Backend    │ ---> │ MySQL │
-│  (Angular)  │      │ (Spring Boot)│
-└─────────────┘      └──────────────┘
-                           |
-                           v
-                    ┌────────────┐
-                    │ phpMyAdmin │
-                    └────────────┘
 
 ## Accès aux services
 
